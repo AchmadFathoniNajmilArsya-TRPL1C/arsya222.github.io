@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Halaman Pengajuan</title>
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Persetujuan Pengajuan</h1>
+        <table id="example" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>nim</th>
+                    <th>nama</th>
+                    <th>program_studi</th>
+                    <th>Tanggal_Pengajuan</th>
+                    <th>status_pengajuan</th>
+                    <th>Status_Berkas</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <script>
+        new DataTable('#example');
+    </script>
+</body>
+</html>
